@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: #f2f6e9;
+  background: ##BDBDBD;
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -23,22 +23,36 @@ body {
   justify-content: flex-end;
 }
 .header {
-  background-image: url('./assets/theater seats.jpg');
+  background-image: url("../assets/theater seats.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .header-4k {
-  background-image: url('./assets/4kUhd.jpg');
-  background-size: cover;
+  background-image: url('../assets/4kUhd.jpg');
   background-position: center;
-  position: relative;
+  background-repeat: repeat;
 }
 .header-bluRay {
-  background-image: url('./assets/bluRay.jpg');
-  background-size: cover;
+  background-image: url('../assets/bluRay.jpg');
   background-position: center;
-  position: relative;
+  background-repeat: repeat;
+}
+.header-dvd{
+  background-image: url('../assets/dvdLogo.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.header-vhs {
+  background-image: url('../assets/vhsLogo.jpg');
+  background-position: center;
+  background-repeat: repeat;
+}
+.header-digital {
+  background-image: url('../assets/digitalLogo.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
 }
 .overlay {
   position: absolute;
@@ -146,10 +160,29 @@ body {
     margin: 0;
   }
 }
-table, th, td {
+.table-responsive{
+  max-height: 300px;
+  overflow-y: auto;
+}
+table thead tr th{
+  position: sticky;
+  top: 0px;
+  background-color: #FFFFFF
+}
+ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+tbody {
+  height: 200px;
+  overflow-y: auto;
+}
 th, td {
   padding: 15px;
+}
+td{
+  font-weight: bold;
+}
+th {
+  font-weight: bolder;
 }
