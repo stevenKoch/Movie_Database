@@ -7,25 +7,25 @@
   <div class="collapse navbar-collapse" id="main-navigation">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="../4k/4kUhd.php">4K UHD</a>
+        <a class="nav-link" href="#">4K UHD</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../bluRay/bluRay.php">Blu-Ray</a>
+        <a class="nav-link" href="#">Blu-Ray</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../dvd/dvd.php">DVD</a>
+        <a class="nav-link" href="#">DVD</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../vhs/vhs.php">VHS</a>
+        <a class="nav-link" href="#">VHS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../digital/digital.php">Digital</a>
+        <a class="nav-link" href="#">Digital</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">All</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Wish-List</a>
+        <a class="nav-link" href="../wishList/wishList.php">Wish-List</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="../addMovie/addMovieForm.php">Add Movie</a>

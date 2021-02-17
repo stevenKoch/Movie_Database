@@ -4,7 +4,7 @@
   <head>
     <!-- Common Header Info -->
     <?php include "../common/header.php" ?>
-    <title>Movie Database</title>
+    <title>Wish List</title>
   </head>
 
 <body>
@@ -16,8 +16,8 @@
   <header class="page-header header container-fluid">
     <div class="overlay"></div>
     <div class="description">
-      <h1>It's Movie Time!</h1>
-      <p>Search for movies we already own using the box below. For a list of movies we own by type, use the options in the menu above.</p>
+      <h1>I Want These Movies!</h1>
+      <p>Search for movies we want to own using the box below. For a list of movies we own by type, go back home.</p>
       <label class="title-search" for="title-search">Search by Title</label>
       <input type="search" id="title-search" name="title-search">
       <button class="btn btn-outline-secondary btn-lg">Search</button>
@@ -271,11 +271,6 @@
 </tbody>
 </table>
 </div>
-<div class="">
-      <h1>Can't Decide What to Watch?</h1>
-      <p>Click the button for a random movie!</p>
-      <button class="btn btn-outline-secondary btn-lg">Give me a Movie!</button>
-</div>
 </div>
   </header>
 
@@ -284,9 +279,3 @@
 	<?php include "../common/footer.php" ?>
 </body>
 </html>
-
-<!-- Link to the website you're doing all of this from
-
-https://websitesetup.org/bootstrap-tutorial-for-beginners/?fbclid=IwAR3urDFAMwUYWNmP8uOlF3yVx4oYCOtPXCpgvbiQJC2cGeESx06ICyoOQAw
-
--->
